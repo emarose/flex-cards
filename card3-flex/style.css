@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Farsan&family=Old+Standard+TT&display=swap');
+
+:root{
+  --fuente-cursiva:'Farsan', cursive; 
+  --fuente-titulo: 'Old Standard TT', serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.cardContainer{
+  display: flex;
+  margin: 100px;
+  box-shadow: 0 0 5px 6px rgba(0,0,0,0.3);
+  border-radius: 12px;
+  overflow: hidden;
+  height: 350px;
+  max-width: 699px;
+
+}
+
+.cardBody{
+  background-color: rgb(247 244 254); 
+
+  height: 100%;
+  width: 349px;
+  padding: 15px 30px;
+  line-height: 1.4;
+  
+}
+
+.new-sign{
+  transform: translateX(170px);
+  font-size: 1.2rem;
+  padding: 2px 5px;
+  color:#fff;
+  font-weight: bolder;
+  border-radius: 3px;
+  background-color: #ffa69e;
+  width: fit-content;
+  font-family: var(--fuente-cursiva);
+}
+
+
+
+.cardHeader h2{
+  color: #344055;
+  font-size: 1.9rem;
+  font-family: var(--fuente-titulo);
+}
+
+.stars i{
+  color: gold;
+}
+.cardBodyText{
+  margin-top: 5px;
+  text-align: center;
+  width: 300px;   
+}
+
+.cardBodyText p{
+  font-family: var(--fuente-cursiva);
+  max-width:30ch;
+  font-size: 1.1rem;
+}
+.priceButton{
+  font-family: var(--fuente-cursiva);
+  margin-top: 5px;
+  padding: 10px;
+  transform: translateX(-50px);
+ 
+}
+.priceButton button{
+  background-color:#49c608;
+  border: none;
+  color: #fff;
+  font-weight: bolder;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 7px;
+  width:13ch;
+  font-size: 1.2rem;
+  font-family: var(--fuente-cursiva);
+  margin-top: 3px;
+  padding: 7px;
+}
+
+.priceButton span{
+  padding: 7px 18px;
+  font-size: 1.2rem;
+  color: #fff;;
+  background-color: #333;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+img{
+  width: 350px;
+}
+
